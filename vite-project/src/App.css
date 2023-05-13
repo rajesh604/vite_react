@@ -106,8 +106,8 @@ span::after {
 }
 
 footer {
-  position: absolute;
-  bottom: 0;
+  /* position: absolute;
+  bottom: 0; */
   width: 100%;
   height: 50px;
   background-color: #fff;
@@ -120,4 +120,12 @@ footer {
 
 main section ul li {
   line-height: 30px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
